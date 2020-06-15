@@ -1,0 +1,162 @@
+html{
+  font-family:'Open Sans', sans-serif !important;
+}
+
+/* NAV-BAR */
+a
+{
+  font-size:20px;
+  letter-spacing:0.1em;
+}
+
+.navbar  {
+  background-color: #212121;
+  
+}
+
+.navbar li a
+{
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+    color: #d82c2e !important;
+    background-color: #fff !important;
+}
+
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+
+/* Parallax effect */
+.parallax{
+  /* The image used */
+  background-image: url("img/b1.jpg");
+  opacity: 0.75;
+  /* Set a specific height */
+  min-height: 757px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* jumbotron*/
+#profile
+{
+  border-radius: 0px;
+  margin: auto 0px;
+  background-color: #e0e0e0;
+  
+}
+
+#experiences
+{
+  border-radius: 0px;
+  margin: auto 0px;
+  background-color: #fafafa;
+  
+}
+
+#abilities
+{
+  border-radius: 0px;
+  margin: auto 0px;
+  background-color: #e0e0e0;
+  
+}
+
+#projects
+{
+  border-radius: 0px;
+  margin: auto 0px;
+  background-color: #fafafa;
+  
+}
+
+#contact
+{
+  border-radius: 0px;
+  margin: auto 0px;
+  
+}
+
+/* Caption */
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border  {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 9px;
+}
+
+/*Divider*/
+.divider
+{
+    width:400px;
+    height: 2px;
+    background: #d82c2e;
+    margin: 0 auto;
+}
+
+h2 
+{
+  font-size: 54px;
+  color: #d82c2e;
+}
+
+h3 
+{
+  font-size: 25px;
+  color: #d82c2e;
+}
+
+/* List */
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* FOOTER */
+ 
+
+ #contact
+{
+    background: #212121;
+    padding: 20px 0 40px;
+}
+
+ .contact
+{
+  font-size: 38px;
+  color: #fff;
+}
+
+h6
+{
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+.divider-contact
+{
+  width:400px;
+  height: 2px;
+  background: grey;
+  margin: 0 auto;
+}
+
